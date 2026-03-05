@@ -22,7 +22,7 @@ Configure every binding, sensitivity, macros, and profiles through a built-in Wi
 3. Connect your USB Hub to a USB-C OTG cable. Connect the OTG cable to the `USB` USB-C port on the ESP32.
 4. Connect your USB mouse and keyboard to the hub.
 
-## Flash the firwmare
+## Flash the firmware
 
 1. Connect your ESP32 to a PC using the `COM` USB-C port.
 2. Go to https://web.esphome.io/ (use Chrome or Edge).
