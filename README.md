@@ -26,7 +26,11 @@ Configure every binding, sensitivity, macros, and profiles through a built-in Wi
 
 1. Connect your ESP32 to a PC using the `COM` USB-C port.
 2. Go to https://web.esphome.io/ (use Chrome or Edge).
-3. Connect and install the firmware.
+3. Click **Connect**, select your COM port and click **Connect**.
+4. Click **Install**.
+5. Click **Choose file** and select the ESP32 Gamepad firmware file you downloaded.
+6. Click **Install** and wait for the process to complete.
+7. Once the installation is completed, power cycle the ESP32.
 
 ## First-Time Setup
 
