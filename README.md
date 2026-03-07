@@ -48,7 +48,7 @@ Configure every binding, sensitivity, macros, and profiles through a built-in Wi
   
     Remember to save your changes. 
 
-4. Pair with the ESP32 in Bluetooth settings on your Android, iOS/iPadOS device.
+4. Pair with the ESP32 in Bluetooth settings on your Android device (iOS/iPadOS aren't supported).
 
 5. Once configured, click **Disable WiFi Hotspot** for minimum input latency.
    To reconfigure later, power-cycle the ESP32 — the hotspot reactivates on boot.
