@@ -48,7 +48,7 @@ Configure every binding, sensitivity, macros, and profiles through a built-in Wi
   
     Remember to save your changes. 
 
-4. Pair with the ESP32 in Bluetooth settings on your Android device (for experimental iOS/iPadOS support, see [pre-release 0.2](https://github.com/kaminoer/ESP32-Gamepad/releases/tag/v0.2)).
+4. Pair with the ESP32 (`ESP32 Gamepad` in v0.1 or `Xbox Wireless Controller` in v0.2) in Bluetooth settings on your phone.
 
 5. Once configured, click **Disable WiFi Hotspot** for minimum input latency.
    To reconfigure later, power-cycle the ESP32 — the hotspot reactivates on boot.
