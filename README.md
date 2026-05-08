@@ -10,7 +10,7 @@ Configure every binding, sensitivity, macros, and profiles through a built-in Wi
 | Part | Notes |
 |---|---|
 | **ESP32-S3** dev board | Tested on ESP32-S3-DevKitC-1 |
-| **USB Hub** | Connect keyboard and mouse to the single USB-OTG port |
+| **USB Hub and OTG cable** | Connect keyboard and mouse to the single USB-OTG port |
 | USB keyboard | Any standard HID boot-protocol keyboard |
 | USB mouse | Any standard HID boot-protocol mouse |
 
