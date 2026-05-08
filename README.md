@@ -3,7 +3,7 @@
 Convert a USB keyboard and mouse into a wireless Xbox-style Bluetooth gamepad using an ESP32-S3.
 Configure every binding, sensitivity, macros, and profiles through a built-in Wi-Fi configuration page.
 
-<img width="1068" height="1261" alt="webUI" src="https://github.com/user-attachments/assets/65610d99-1ec1-4418-a884-e21110ae10f7" />
+<p align="center"><img width="631" height="661" alt="0.3" src="https://github.com/user-attachments/assets/2acdde25-84e1-499c-b0d4-22de1bb10c7b" /></p>
 
 ## Hardware
 
@@ -41,14 +41,14 @@ Configure every binding, sensitivity, macros, and profiles through a built-in Wi
 2. Connect to that network and open **http://192.168.4.1**
 
 3. From the config page you can:
-   - Rebind any button (click a slot on the controller diagram or binding table, then press a key)
+   - Rebind any button (click a slot on the controller diagram or binding table, then press a key - you can also use modifiers to create combinations such as ALT+R etc.)
    - Adjust mouse sensitivity and joystick dead-zone
    - Create macros (one key triggers multiple buttons)
    - Save/load profiles
   
     Remember to save your changes. 
 
-4. Pair with the ESP32 (`ESP32 Gamepad` in v0.1 or `Xbox Wireless Controller` in v0.2) in Bluetooth settings on your phone.
+4. Pair with the ESP32 (`Xbox Wireless Controller`) in Bluetooth settings on your phone.
 
 5. Once configured, click **Disable WiFi Hotspot** for minimum input latency.
    To reconfigure later, power-cycle the ESP32 — the hotspot reactivates on boot.
