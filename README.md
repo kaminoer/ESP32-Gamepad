@@ -14,11 +14,13 @@ Configure every binding, sensitivity, macros, and profiles through a built-in Wi
 | USB keyboard | Any standard HID boot-protocol keyboard |
 | USB mouse | Any standard HID boot-protocol mouse |
 
+> [!IMPORTANT]
 > **Why ESP32-S3?** It is the only ESP32 variant with a built-in USB OTG controller capable of acting as a USB host. Standard ESP32, S2, and C3 do not support USB host without an external controller IC.
 
 1. To enable OTG capabilities on the ESP32, bridge the two pins labeled `USB-OTG` with solder.
 2. Power the ESP32-S3 through its USB-C power port (`COM`) or with a 5V power source via the 5V/GND pins.
-> The USB-OTG port on the ESP32-S3 is the second USB port (labelled `USB`).
+> [!TIP]
+> The USB-OTG port on the ESP32-S3 is the second USB port (labeled `USB`).
 3. Connect your USB Hub to a USB-C OTG cable. Connect the OTG cable to the `USB` USB-C port on the ESP32.
 4. Connect your USB mouse and keyboard to the hub.
 
